@@ -25,6 +25,7 @@ body{
 .img-container{
     background: url("/images/hero-mobile.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     grid-area: hero;
     height: 15.625rem;
 }
