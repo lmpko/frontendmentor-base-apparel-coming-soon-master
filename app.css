@@ -16,6 +16,9 @@ body{
     overflow-x: hidden;
 }
 
+.card{
+    min-height: 100vh;
+}
 
 .logo{
     padding: 1.875rem;
@@ -83,8 +86,13 @@ body{
 .input-container input::placeholder {
     color: var(--primary-color);
 }
+
+.input-container img:hover, .input-container img:focus{
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 0px var(--primary-color);;
+}
   
-@media (min-width: 768px){
+@media (min-width: 500px){
     body{
         background: url("/images/bg-pattern-desktop.svg");
         background-repeat: no-repeat;
@@ -92,25 +100,25 @@ body{
     }
     .card {
         display: grid;
-        grid-template-columns: 1.2fr 1fr;
-        grid-template-rows: 0.1fr 1fr 0.3fr;
-
+        grid-template-columns: 1.1fr 1fr;
+        grid-template-rows: 0.4fr 1fr 0.1fr 0.1fr;
         grid-template-areas: 
-        "logo hero"
-        "overview hero"
-        "form hero";
+        "logo hero "
+        "overview hero "
+        "form hero "
+        ". hero"
     }
 
     .img-container{
         background: url("/images/hero-desktop.jpg");
         height: 100%;
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
         
     }
 
     .overview h1{
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .overview, .form-area , .logo{
