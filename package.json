@@ -1,0 +1,27 @@
+{
+  "name": "base-apparel-coming-soon-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmpko/frontendmentor-base-apparel-coming-soon-master.git"
+  },
+  "author": "lmp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmpko/frontendmentor-base-apparel-coming-soon-master/issues"
+  },
+  "homepage": "https://github.com/lmpko/frontendmentor-base-apparel-coming-soon-master#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
