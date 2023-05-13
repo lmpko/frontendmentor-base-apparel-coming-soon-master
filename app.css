@@ -13,7 +13,6 @@ body{
     font-size: 1rem;
     margin: 0;
     min-height: 100vh;
-    overflow-x: hidden;
 }
 
 .card{
@@ -106,7 +105,7 @@ body{
         ".logo hero "
         ".overview hero "
         ".form hero "
-        ". . hero"
+        ". . hero";
     }
 
     .overview h1{
@@ -129,14 +128,7 @@ body{
     .img-container {
         background-image: url("/images/hero-desktop.jpg");
         background-size: cover;
-        background-position: center;
         height: 100%;
-      }
-      
-      .img-container img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-    
+    }
+     
 }
