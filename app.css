@@ -100,32 +100,22 @@ body{
     }
     .card {
         display: grid;
-        grid-template-columns: 1.3fr 0.7fr;
+        grid-template-columns: 0.3fr 1.3fr 1.35fr;
         grid-template-rows: 0.3fr 0.8fr 0.1fr 0.1fr;
         grid-template-areas: 
-        "logo hero "
-        "overview hero "
-        "form hero "
-        ". hero"
-    }
-
-    
-
-    .img-container{
-        background: url("/images/hero-desktop.jpg");
-        min-height: 100vh;
-        background-repeat: no-repeat;
-        background-size: auto;
-        
+        ".logo hero "
+        ".overview hero "
+        ".form hero "
+        ". . hero"
     }
 
     .overview h1{
         font-size: 5rem;
     }
 
-    .overview, .form-area , .logo{
+    .overview, .form-area {
         text-align: left;
-        margin: 0 15.75rem;
+        width:  26.75rem;
     }
 
     .overview p, .input-container, .logo{
@@ -135,5 +125,18 @@ body{
     .logo{
         padding-top: 3.875rem;
     }
+
+    .img-container {
+        background-image: url("/images/hero-desktop.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+      }
+      
+      .img-container img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
     
 }
