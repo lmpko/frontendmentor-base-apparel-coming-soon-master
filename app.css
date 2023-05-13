@@ -100,8 +100,8 @@ body{
     }
     .card {
         display: grid;
-        grid-template-columns: 1.1fr 1fr;
-        grid-template-rows: 0.2fr 1fr 0.1fr 0.1fr;
+        grid-template-columns: 1.3fr 0.7fr;
+        grid-template-rows: 0.3fr 0.8fr 0.1fr 0.1fr;
         grid-template-areas: 
         "logo hero "
         "overview hero "
@@ -109,11 +109,13 @@ body{
         ". hero"
     }
 
+    
+
     .img-container{
         background: url("/images/hero-desktop.jpg");
-        height: 100%;
+        min-height: 100vh;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
         
     }
 
@@ -123,7 +125,7 @@ body{
 
     .overview, .form-area , .logo{
         text-align: left;
-        margin: 0 12.75rem;
+        margin: 0 15.75rem;
     }
 
     .overview p, .input-container, .logo{
