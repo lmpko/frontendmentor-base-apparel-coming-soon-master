@@ -54,7 +54,7 @@ const CardComponent = () => {
                     id='input-email'
                     />
                 {error && email && <img src={errorIMG} alt="error" className='image'/>}
-                <button className='arrow' type='submit '>
+                <button className='arrow' type='submit' value='submit'>
                     <img src={arrow} alt="arrow" />
                 </button>
             </div>
@@ -64,4 +64,4 @@ const CardComponent = () => {
   )
 }
 
-export default CardComponent
+export default CardComponent 
